@@ -1,0 +1,34 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:rgb(8, 3, 23); */
+}
+.btn{
+    min-width: 5vw;
+    min-height: 7vh;
+    border: 2px solid rgb(103, 77, 77);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 3px;
+    font-size: 1.0em;
+    background: rgb(10, 5, 35);
+    color: white;
+}
+.inputText input{
+    width: 19vw;
+    margin: 12px 0px;
+    padding: 8px 22px;
+    border-radius: 13px;
+    border: 2px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+}
+.row{
+    margin: 5px 8px;
+}
+.container h1{
+color:black;
+}
